@@ -12,7 +12,7 @@ trait AppendBar {
 }
 
 impl AppendBar for String {
-    // TODO: Implement `AppendBar` for type `String`.
+    // : Implement `AppendBar` for type `String`.
     fn append_bar(mut self) -> Self {
         self.push_str("Bar");
         self
